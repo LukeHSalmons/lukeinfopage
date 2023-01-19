@@ -1,0 +1,81 @@
+/* To style my page the way I wanted, I had to break it down into different sections */
+
+/* Set main background colour and font */
+* {
+    background-color: #f9e9d6;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 40px;
+}
+
+#top-section {
+    text-align: left;
+    margin-top: 350px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+#about-section {
+    background-color: #FDF4E3;
+    text-align: right;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 550px;
+    padding-right: 100px;
+}
+
+img {
+    border-radius: 50%;
+    float: right;
+    margin-top: -50px;
+    margin-bottom: 150px;
+    margin-right: 200px;
+    margin-left: 120px;
+}
+
+#skills-section {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#education-section {
+    background-color: #FDF4E3;
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+}
+
+/* Colour class to change the background colour of each other section */
+.colour {
+    background-color: #FDF4E3;
+}
+
+#work-section {
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: 550px;
+    margin-right: 100px;
+    /* Use list style position to set the bullet points right up against text on the left*/
+    list-style-position: inside;
+}
+
+#projects-section {
+    background-color: #FDF4E3;
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+}
+
+#contact-section {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,131 @@
+<!-- Please note my CSS is mostly external and can be found on the style.css file -->
+<!-- Most sections have been placed into div tags to seperate into sections -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   <title>My Online CV</title>
+   <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="top-section">
+        <img src = "Images/Self1.jpeg" alt="A profile picture of myself" width="400" heigh="400">
+
+        <h1 id="top-page" style="font-size: 45px;">Luke Hunter-Salmons</h1>
+
+        <h2>Software Engineer</h2>
+        <h4>Email: lukehsalmons@gmail.com</h4>
+        <h4>Telephone: 07711951299</h4>
+        <h4>LinkedIn: <a href="http://linkedin.com/in/luke-hunter-salmons/">linkedin.com/in/luke-hunter-salmons/</a></h4>
+    </div>
+
+
+    <!-- hr tag used to help seperate top section from about section -->
+    <hr style="margin:-5px; border-top: 3px double">
+
+    <div id="about-section" class="colour">
+        <h2 class="colour">About Me</h2>
+
+        <p class="colour">My name is Luke Hunter-Salmons and I am a Software Engineering student at HyperionDev with the aim to transition into a career into the tech space. Through this course I have developed a strong understanding of Python as well as experience using SQL, HTML/CSS, Django and Git. I have created a number of projects throughout my course including a finance calculator and an inventory tracker.</p>
+
+        <p class="colour">When I'm not working on personal projects or studying I also work a full-time job as an Accounts/IT Assistant at a company in central London. I am a huge foodie who loves to eat good food and a big advocate for travelling and truly believe experiencing different cultures broadens the mind and inspires creativity. </p>
+    </div>
+
+
+    <div id="skills-section">
+        <h2>My Skills</h2>
+
+        <p style="font-weight:bold">Python &emsp; &emsp; SQL &emsp; &emsp; HTML &emsp; &emsp; CSS &emsp; &emsp; Git &emsp; &emsp; Github &emsp; &emsp; Django</p>
+    </div>
+
+
+    <div id="education-section" class="colour">
+        <h2 class="colour">Education</h2>
+
+        <h3 class="colour">Software Engineer Bootcamp</h3>
+        <h4 class="colour">HyperionDev, Nov 2022 - Feb 2023</h4>
+
+        <ul class="colour">
+            <li class="colour">On-track to finish bootcamp with near perfect score.</li>
+            <li class="colour">Intensive 4 month bootcamp covering; Python, SQL, HTML, CSS, Git, Django.</li>
+            <li class="colour">Create numerous projects including finance calculator, inventory tracker and portfolio website.</li>
+        </ul> 
+
+        <h3 class="colour">BTEC Level 3 Extended Diploma in TV & Film Production</h3>
+        <h4 class="colour">Nottingham College, Sep 2015 - July 2017</h4>
+
+        <ul class="colour">
+            <li class="colour">Graduated with Distinction*, Distinction and Distinction.</li>
+            <li class="colour">Key modules: Editing, Directing and producing and Post-production work.</li>
+            <li class="colour">Projects: Acted as producer/director in a team of six to create a gameshow on TV series and films.</li>
+        </ul>    
+    </div>
+
+
+    <div id="work-section">
+        <h2>Work Experience</h2>
+
+        <h3>Accounts/IT Assistant</h3>
+        <h4>Saville & Co. Scrivener Notaries, Feb 2022 - Present</h4>
+
+        <ul>
+            <li>Act as credit controller for any overdue invoices, contacting clients via email and telephone to obtain payment.</li>
+            <li>Create and manage client accounts on Company's systems, including CRM4 Dynamics and Sage 200.</li>
+            <li>Provide basic IT support and liaise with external providers to ensure smooth running of IT systems.</li>
+        </ul> 
+
+        <h3>Office Assistant</h3>
+        <h4>B. Hague & Co., Aug 2019 - Feb 2022</h4>
+
+        <ul>
+            <li>Liaised with suppliers, contractors and couriers to ensure adequate levels of stock and office supplies.</li>
+            <li>Replied to resellers and customers' queries via email and telephone, including resolving complaints and handling returns in accordance with Company's policies and procedures.</li>
+            <li>Processed orders and communicated with manufacturing teams to ensure orders were dispatched on-time and in full, as well as exporting invoices from BigCommerce and inputting them onto Sage for accounting purposes.</li>
+            <li>Entrusted with manager's duties when the Director was out of office, such as planning tasks, supervising team members and solving unexpected issues to ensure smooth business operations.</li>
+        </ul>  
+
+        <h3>Co-Owner</h3>
+        <h4>Essential Self Care, Nov 2019 - Mar 2022</h4>
+
+        <ul>
+            <li>Researched, tested and created eco-friendly self-care products, such as candles, wax melts and reed diffusers, as well as ensuring adequate stock levels.</li>
+            <li>Created and managed website and social media content, including taking and editing photos, creating blogs and social media posts and running ads on social media platforms.</li>
+            <li>Researched social media trends and utilised Google Analytics and SEO tools to increase virtual presence, interactions and sales, leading to achievement of revenue of over 3,000 pounds in the first six months.</li>
+            <li>Reached out, negotiated and secured wholesale orders with resellers, such as Peace with the Wild, Shop Zero and Peaces of Mine.</li>
+        </ul>  
+    </div>
+
+
+    <div id="projects-section">
+        <h2 class="colour">Projects</h2>
+
+        <p class="colour">I have completed a number of projects, both as part of my course and personally, most of which I share on my <a class="colour" href="http://github.com/LukeHSalmons">Github</a>. These are a few of my personal favourites: </p>
+
+        <h3 class="colour">Finance Calculator - Python</h3>
+        <p class="colour">This project was built using Python for the purpose of providing the user with a financial calculator. This calculator allows the user to choose between calculating the interest of an investment over a given number of years or calculate their monthly bond repayment.</p>
+
+        <h3 class="colour">Inventory Tracker - Python</h3>
+        <p class="colour">This project was made using Python for the purpose of being an inventory tracking programme for a shoe store where the data is stored in a .txt file. The programme stores details such as country of origin, product code, product name, cost and quantity of each shoe.</p>    
+
+        <h3 class="colour">Password Hacked Checker - Python</h3>
+        <p class="colour">This project was also built using Python and is used to check if your password has been leaked using the 'Have I Been Pwned' API. The program is able to read all passwords from a text file, hash them and retreive a list of hash passwords from the website that match the first few digits of your password. The program then compares these hashes on your local machine to your hashed password. The program works this way so the website never sees your full hashed password and your passwords remain secure.</p>
+    </div>
+
+
+    <div id="contact-section">
+        <h2>Contact Me</h2>
+
+        <p>You can contact me either by phone, email or via my linkedIn: </p>
+        <p>Telephone: 07711951299</p>
+        <p>Email: lukehsalmons@gmail.com</p>
+        <p>LinkedIn: <a href="http://linkedin.com/in/luke-hunter-salmons/">linkedin.com/in/luke-hunter-salmons/</a></p>
+        
+        <a href="#top-page"><button>Back to Top</button></a>
+    </div>
+
+</body>
+
+</html>
